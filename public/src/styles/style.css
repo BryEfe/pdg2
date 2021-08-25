@@ -74,7 +74,10 @@ select {
     font-family: 'Rubik', sans-serif;
     font-weight: 900;
     padding:10px;
-    border: 1px solid #0057FF;
+    border-top: 1px solid #0057FF;
+    border-right: 1px solid #0057FF;
+    border-left: 1px solid #0057FF;
+    border-bottom: none;
     color: #0057FF;
 
 }
@@ -84,6 +87,23 @@ button {
     flex-flow: row wrap;
     min-width: 60px;
     max-height: 45px;
+    border-top: 1px solid #0057FF;
+    border-right: none;
+    border-left: 1px solid #0057FF;
+    border-bottom: none;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+button > img {
+    display:flex;
+    flex-flow: row wrap;
+    max-height: 30px;
+}
+
+#comunas {
+    border-right: none;
 }
 
 
