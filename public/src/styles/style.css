@@ -63,9 +63,29 @@ a:hover {
 #navbar{
     display:flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     margin-top: 85px;
     height: 45px;
     border-bottom: 1px solid #0057FF;
+    
+}
+
+#leftbuttons{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    min-width: 10vw;
+    padding: 0;
+}
+
+#navbar ul li {
+    padding: 11px;
 }
 
 select {
@@ -82,7 +102,7 @@ select {
 
 }
 
-button {
+#home {
     display:flex;
     flex-flow: row wrap;
     min-width: 60px;
@@ -96,10 +116,24 @@ button {
     justify-content: center;
 }
 
-button > img {
+#home > img {
     display:flex;
     flex-flow: row wrap;
     max-height: 30px;
+}
+
+#ir {
+    display:flex;
+    flex-flow: row wrap;
+    min-width: 60px;
+    max-height: 45px;
+    border-top: 1px solid #0057FF;
+    border-left: none;
+    border-right: 1px solid #0057FF;
+    border-bottom: none;
+    background-color: #0057FF;
+    align-items: center;
+    justify-content: center;
 }
 
 #comunas {
