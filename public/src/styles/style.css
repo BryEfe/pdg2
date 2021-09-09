@@ -64,10 +64,9 @@ a:hover {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 85px;
+    margin-top: 75px;
     height: 45px;
     border-bottom: 1px solid #0057FF;
-    
 }
 
 #leftbuttons{
@@ -93,7 +92,8 @@ select {
     flex-flow: row wrap;
     font-family: 'Rubik', sans-serif;
     font-weight: 900;
-    padding:10px;
+    font-size: 15pt;
+    padding-left: 15px;
     border-top: 1px solid #0057FF;
     border-right: 1px solid #0057FF;
     border-left: 1px solid #0057FF;
@@ -136,8 +136,42 @@ select {
     justify-content: center;
 }
 
+#filterbar {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#filterbar ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    min-width: 10vw;
+    padding: 0;
+}
+
+#filterbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#temas {
+    border-bottom: 1px solid #0057FF;
+}
 #comunas {
     border-right: none;
+}
+
+#display{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.proyecto{
+    border:1px solid #0057FF; ;
+    padding:20px;
 }
 
 
